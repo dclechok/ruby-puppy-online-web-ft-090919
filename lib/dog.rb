@@ -15,6 +15,7 @@ class Dog
   
   def self.print_all()
     @@all.each do |dog|
+<<<<<<< HEAD
       puts dog.name
     end
   end
@@ -28,4 +29,14 @@ class Dog
 		@@all << self
 	end
 
+=======
+      puts dog
+    end
+  end
+
+	def save()
+		@@all << self
+	end
+  
+>>>>>>> d52987aec1cedc76f21c4d0945def56f85856c64
 end
